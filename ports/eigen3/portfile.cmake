@@ -7,6 +7,8 @@ vcpkg_from_gitlab(
     REF 4a2c4901ce1627c9511d2f23d3a33d903c42069f # 3.4.1
     SHA512 3711944483d5dedd685f9b280322803ce5f873156ee0e9aa8e6c8686fbc7e4afb780d2ca39a694db8be651f3e776f2e5a09e69b315520ed2eddd5b638813d0c6
     HEAD_REF master
+    PATCHES
+        restore-include-dir.patch
 )
 
 vcpkg_cmake_configure(
